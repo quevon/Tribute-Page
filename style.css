@@ -181,17 +181,18 @@ section{
 .awards .box-container .box img{
     height: 7rem;
 }
+.awards .box-container .box img:hover{
+    transform: scale(1.4);
+}
 .awards .box-container .box h3{
     color: #fff;
     font-size: 2rem;
     padding: 1rem 0;
 }
 .awards .box-container .box:hover{
-    background: #fff;
+    background:var(--black);
 }
-.awards .box-container .box:hover >*{
-    color: var(--black);
-}
+
 .awards .source{
     padding-top:2rem;
     text-align: center;
