@@ -68,6 +68,7 @@ section{
     position: fixed;
     top: 0; left: 0; right: 0;
     z-index: 1000;
+    transition: all 0.3s ease;
 }
 .header.sticky{
     padding: 1.5rem 7%;
@@ -145,16 +146,15 @@ section{
 .about .row .img-caption{
     flex: 1 1 45rem;
     padding: 2rem;
+    padding-top: 5.5rem;
 }
-.about .row .img-caption h3{
-    font-size: 3rem;
-    color: #fff;
-}
+
 .about .row .img-caption p{
     font-size: 1.6rem;
     color: #ccc;
     padding: 1rem 0;
     line-height: 1.8;
+    text-align: justify;
 }
 
 .awards .box-container{
@@ -227,6 +227,11 @@ section{
     }
     .header{
         padding:1.5rem 2rem;
+        transition: all 0.3s ease;
+        
+    }
+    .header.sticky{
+        padding: 1.5rem 7%;
         background: var(--bg);
         border-bottom: var(--border);
     }
@@ -256,10 +261,7 @@ section{
         padding: .5rem;
         font-size: 2rem;
     }
-    .header .search-form{
-        width: 90%;
-        right: 2rem;
-    }
+
     .home{
         background-position: left;
         justify-content: center;
@@ -271,7 +273,6 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
-
 
 }
 @media (max-width:450x){
