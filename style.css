@@ -43,7 +43,7 @@ section{
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    padding-bottom:3.5rem;
+    padding-bottom:2.5rem;
     font-size: 4rem;
 }
 .heading span{
@@ -135,6 +135,7 @@ section{
     line-height: 1.8;
     padding: 1rem 0;
     color: #eee ;
+    text-align: justify;
 }
 
 /* about section styling  */
