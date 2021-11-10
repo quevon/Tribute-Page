@@ -134,7 +134,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../images/ronaldo3.jpg);
+    background: url(../images/ronaldo3.jpg) no-repeat;
     background-size: cover;
     background-position:center;
 
